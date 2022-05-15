@@ -4,6 +4,8 @@
   "description": "",
   "main": "diagonalSum.js",
   "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc -w",
     "test": "jest",
     "test:watch": "jest --watch"
   },
@@ -13,6 +15,8 @@
   "devDependencies": {
     "@types/jest": "^27.5.1",
     "jest": "^28.1.0",
-    "nodemon": "^2.0.16"
+    "nodemon": "^2.0.16",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
   }
 }
