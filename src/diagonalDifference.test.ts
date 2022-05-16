@@ -1,4 +1,4 @@
-const diagonalDifference = require('./diagonalDifference');
+import { diagonalDifference } from "./diagonalDifference";
 
 describe('diagonalDifference', () => {
   it('should calculate the diagonal difference', () => {

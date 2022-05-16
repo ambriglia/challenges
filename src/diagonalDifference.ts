@@ -1,4 +1,4 @@
-const diagonalDifference = (arr) => {
+export function diagonalDifference(arr: number[][]): number {
   const length = arr[0][0];
   let sum1 = 0;
   let sum2 = 0;
@@ -12,5 +12,3 @@ const diagonalDifference = (arr) => {
 
   return Math.abs(sum1 - sum2);
 };
-
-module.exports = diagonalDifference;
